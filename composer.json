@@ -1,0 +1,13 @@
+{
+  "name": "firegento/pdf-billpay",
+  "license": ["GPL-3.0"],
+  "type": "magento-module",
+  "description": "FireGento Pdf Billpay adds the detailed Billpay payment information on the FireGento PDF invoices.",
+  "homepage": "https://github.com/firegento/firegento-pdf-billpay",
+  "suggest": {
+    "magento-hackathon/magento-composer-installer": "Magento composer installer (or a replacement) is needed to install this packages"
+  },
+  "require": {
+    "firegento/pdf": "1.*"
+  }
+}

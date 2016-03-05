@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="FireGento_PdfBillpay_Model_Observer" namespace="" name="FireGento_PdfBillpay_Model_Observer" abstract="false" final="false" start="29" end="56">
+  <file path="/var/www/magento192/.modman/firegento-pdf-billpay/src/app/code/community/FireGento/PdfBillpay/Model" file="Observer.php" realpath="/var/www/magento192/.modman/firegento-pdf-billpay/src/app/code/community/FireGento/PdfBillpay/Model/Observer.php" size="1886" time="2016-03-05T11:56:41+00:00" unixtime="1457179001" sha1="6b9737320db6cdf59896e6a2b204a0364372bb8a" relative="app/code/community/FireGento/PdfBillpay/Model/Observer.php"/>
+  <docblock>
+    <description compact="Adds the detailed Billpay payment information in the comments section of the FireGento PDF invoices."/>
+    <category value="FireGento"/>
+    <package value="FireGento_PdfBillpay"/>
+    <author value="FireGento Team &lt;team@firegento.com&gt;"/>
+  </docblock>
+  <method name="firegentoPdfInvoiceInsertNote" start="32" end="54" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="observer" byreference="false" type="object">
+      <type full="Varien_Event_Observer" namespace="" name="Varien_Event_Observer"/>
+    </parameter>
+  </method>
+</class>
